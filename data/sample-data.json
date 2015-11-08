@@ -1,0 +1,8 @@
+[{
+    "name": "animals",
+    "data": {
+	    "words": ["this", "is", "a", "sweet", "word", "cloud"],
+	    "counts": [20, 10, 10, 5, 20, 10]
+	}
+}]
+

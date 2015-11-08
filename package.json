@@ -1,0 +1,27 @@
+{
+  "name": "lightning-wordcloud",
+  "version": "0.0.0",
+  "dependencies": {
+    "brfs": "^1.4.0",
+    "colorbrewer": "0.0.2",
+    "d3": "^3.5.6",
+    "d3-cloud": "^1.2.1",
+    "lightning-client-utils": "^0.6.3",
+    "lightning-visualization": "^0.1.0",
+    "lodash": "^3.8.0"
+  },
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "lightning": {
+    "name": "lightning-wordcloud"
+  }
+}

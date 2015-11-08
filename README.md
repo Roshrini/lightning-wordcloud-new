@@ -1,2 +1,2 @@
-# lightning-wordcloud
-Word cloud for Lightning
+lightning-wordcloud
+===============
