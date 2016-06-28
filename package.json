@@ -1,5 +1,5 @@
 {
-  "name": "lightning-wordcloud",
+  "name": "lightning-wordcloud-new",
   "version": "0.0.0",
   "dependencies": {
     "brfs": "^1.4.0",
@@ -22,6 +22,6 @@
     ]
   },
   "lightning": {
-    "name": "lightning-wordcloud"
+    "name": "lightning-wordcloud-new"
   }
 }
