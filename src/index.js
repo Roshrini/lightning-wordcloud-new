@@ -46,7 +46,7 @@ var Visualization = LightningVisualization.extend({
     var layout = cloud()
       .size([width, height])
       .words(data)
-      .padding(5)
+     // .padding(5)
       .rotate(rotate)
       .font("Impact")
       .spiral(options.spiral)
@@ -83,7 +83,7 @@ var Visualization = LightningVisualization.extend({
     var fractions = counts.map( function(d) {return d / sum})
     var data = data.words.map( function(d, i) {
       console.log(d)
-      return {text: d, size: 10 + fractions[i] * 300};
+      return {text: d, size: 10 + fractions[i] * 500};
     })
     console.log(data)
     return data;
