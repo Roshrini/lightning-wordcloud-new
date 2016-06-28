@@ -83,7 +83,7 @@ var Visualization = LightningVisualization.extend({
     var fractions = counts.map( function(d) {return d / sum})
     var data = data.words.map( function(d, i) {
       console.log(d)
-      return {text: d, size: 10 + fractions[i] * 800};
+      return {text: d, size: 10 + fractions[i] * 600};
     })
     console.log(data)
     return data;
